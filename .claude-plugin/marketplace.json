@@ -1,0 +1,27 @@
+{
+  "name": "slidely",
+  "owner": {
+    "name": "Slidely AI",
+    "email": "support@slidely.ai",
+    "url": "https://slidely.ai"
+  },
+  "description": "Create and edit slides in Claude with Slidely.",
+  "plugins": [
+    {
+      "name": "slidely",
+      "displayName": "Slidely",
+      "source": "./",
+      "description": "Create and edit slides in Claude.",
+      "author": {
+        "name": "Slidely AI",
+        "email": "support@slidely.ai",
+        "url": "https://slidely.ai"
+      },
+      "homepage": "https://slidely.ai",
+      "repository": "https://github.com/Slidely-AI/slidely-claude-plugin",
+      "license": "MIT",
+      "keywords": ["presentations", "powerpoint", "slides", "decks"],
+      "category": "productivity"
+    }
+  ]
+}
