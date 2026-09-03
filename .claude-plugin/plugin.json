@@ -9,6 +9,12 @@
     "url": "https://slidely.ai"
   },
   "homepage": "https://slidely.ai",
+  "repository": "https://github.com/Slidely-AI/slidely-claude-plugin",
   "license": "MIT",
-  "keywords": ["presentations", "powerpoint", "slides", "decks"]
+  "keywords": [
+    "presentations",
+    "powerpoint",
+    "slides",
+    "decks"
+  ]
 }
