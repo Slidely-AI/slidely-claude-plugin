@@ -5,14 +5,14 @@ description: Create, import, review, and edit PowerPoint presentations with Slid
 
 ## Slidely is a stateful presentation agent, not a set of one-shot tools
 
-Slidely builds and edits PowerPoint decks. You work with it through a chat that remembers everything in it — the uploaded files, the chosen design, the approved storyline, the slides it has proposed and the feedback you gave. A message asks it to do something; it decides the next useful step and may ask a question before acting.
+Slidely builds and edits PowerPoint decks. You work with it through a chat, and Slidely remembers everything in that chat — the uploaded files, the chosen design, the approved storyline, the slides it has proposed and the feedback you gave. A message asks it to do something; it decides the next useful step and may ask a question before acting.
 
 The user owns the presentation. Slidely proposes, the user approves, and slides only enter the deck through an explicit review.
 
 ## Where the working instructions are
 
-The detailed workflow — how to initialize a presentation, when to involve Slidely, how design systems and layouts are chosen, how to answer the cards it raises, and who decides what — is available through two tools: `list_skills` lists what there is, and `read_skill` returns one of them.
+This text is only the overview. The detailed workflow — how to initialize a presentation, when to involve Slidely, how design systems and layouts are chosen, how to answer the cards Slidely raises, and who decides what — is in the skills served by two tools: `list_skills` lists them, and `read_skill` returns the one you name.
 
-They are worth reading for presentation work: accepting slides, choosing layouts and setting a design each have one tool that does it, and a message to Slidely is not a substitute for any of them.
+Those skills are worth reading for any presentation work the user asks for, from building a deck to adding, editing, redesigning or reviewing slides. Accepting slides, choosing layouts and setting a design each have their own tool, and a message to Slidely is not a substitute for any of them.
 
-A skill may list further files under `files`; `read_skill` returns one of those on its own.
+A skill may also list extra files under `files`. `read_skill` returns the whole skill, or only one of those files when given its `path`.
