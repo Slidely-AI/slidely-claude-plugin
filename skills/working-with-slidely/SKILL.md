@@ -9,13 +9,10 @@ Slidely builds and edits PowerPoint decks. You work with it through a chat that 
 
 The user owns the presentation. Slidely proposes, the user approves, and slides only enter the deck through an explicit review.
 
-## Read the working instructions before you start
+## Where the working instructions are
 
-The detailed workflow — how to initialize a presentation, when to involve Slidely, how design systems and layouts are chosen, how to answer the cards it raises, and who decides what — is served by two tools:
+The detailed workflow — how to initialize a presentation, when to involve Slidely, how design systems and layouts are chosen, how to answer the cards it raises, and who decides what — is available through two tools: `list_skills` lists what there is, and `read_skill` returns one of them.
 
-1. Call `list_skills` and read the descriptions.
-2. Call `read_skill` for the one that matches what the user is asking for, and follow it.
+They are worth reading for presentation work: accepting slides, choosing layouts and setting a design each have one tool that does it, and a message to Slidely is not a substitute for any of them.
 
-Do this before the first Slidely tool call of a conversation, not after. The instructions cover which tool answers which card, and getting that wrong strands the user's work — accepting slides, choosing layouts and setting a design each have one correct tool, and a message is not a substitute for any of them.
-
-A skill may list further files under `files`; read one with `read_skill` when the instructions point you at it.
+A skill may list further files under `files`; `read_skill` returns one of those on its own.
