@@ -11,7 +11,7 @@ through an explicit review.
 
 | Component | Name | Purpose |
 | --- | --- | --- |
-| Skill | `working-with-slidely` | Tells Claude how to drive Slidely: read the server-side working instructions first, then initialize, design, build, and review a deck. |
+| Skill | `working-with-slidely` | What Slidely is, and where the detailed workflow for initializing, designing, building and reviewing a deck lives. |
 | MCP server | `slidely` | Hosted connector at `https://prod.slidely.ai/mcp` providing the presentation tools. |
 
 ## Triggering
@@ -30,7 +30,7 @@ The skill activates when you ask to:
 Once connected, tools such as `initialize_working_presentation`,
 `list_design_systems`, `message_slidely`, `select_layouts`, and
 `review_slides_batch` become available, along with the `list_skills` /
-`read_skill` pair the skill instructs Claude to read before its first call.
+`read_skill` pair that serves the working instructions.
 
 Building a deck runs for minutes rather than seconds. Stay in the same
 conversation and answer the questions, design and layout cards, and slide

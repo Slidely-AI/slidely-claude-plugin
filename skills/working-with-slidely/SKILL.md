@@ -5,17 +5,14 @@ description: Create, import, review, and edit PowerPoint presentations with Slid
 
 ## Slidely is a stateful presentation agent, not a set of one-shot tools
 
-Slidely builds and edits PowerPoint decks. You work with it through a chat that remembers everything in it — the uploaded files, the chosen design, the approved storyline, the slides it has proposed and the feedback you gave. A message asks it to do something; it decides the next useful step and may ask a question before acting.
+Slidely builds and edits PowerPoint decks. You work with it through a chat, and Slidely remembers everything in that chat — the uploaded files, the chosen design, the approved storyline, the slides it has proposed and the feedback you gave. A message asks it to do something; it decides the next useful step and may ask a question before acting.
 
 The user owns the presentation. Slidely proposes, the user approves, and slides only enter the deck through an explicit review.
 
-## Read the working instructions before you start
+## Where the working instructions are
 
-The detailed workflow — how to initialize a presentation, when to involve Slidely, how design systems and layouts are chosen, how to answer the cards it raises, and who decides what — is served by two tools:
+This text is only the overview. The detailed workflow — how to initialize a presentation, when to involve Slidely, how design systems and layouts are chosen, how to answer the cards Slidely raises, and who decides what — is in the skills served by two tools: `list_skills` lists them, and `read_skill` returns the one you name.
 
-1. Call `list_skills` and read the descriptions.
-2. Call `read_skill` for the one that matches what the user is asking for, and follow it.
+Those skills show how to use Slidely to create, edit, redesign and review presentations. Accepting slides, choosing layouts and setting a design each have their own tool, and a message to Slidely is not a substitute for any of them.
 
-Do this before the first Slidely tool call of a conversation, not after. The instructions cover which tool answers which card, and getting that wrong strands the user's work — accepting slides, choosing layouts and setting a design each have one correct tool, and a message is not a substitute for any of them.
-
-A skill may list further files under `files`; read one with `read_skill` when the instructions point you at it.
+A skill may also list extra files under `files`. `read_skill` returns the whole skill, or only one of those files when given its `path`.
