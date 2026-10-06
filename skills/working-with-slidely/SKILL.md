@@ -13,6 +13,6 @@ The user owns the presentation. Slidely proposes, the user approves, and slides 
 
 This text is only the overview. The detailed workflow — how to initialize a presentation, when to involve Slidely, how design systems and layouts are chosen, how to answer the cards Slidely raises, and who decides what — is in the skills served by two tools: `list_skills` lists them, and `read_skill` returns the one you name.
 
-Those skills are worth reading for any presentation work the user asks for, from building a deck to adding, editing, redesigning or reviewing slides. Accepting slides, choosing layouts and setting a design each have their own tool, and a message to Slidely is not a substitute for any of them.
+Those skills show how to use Slidely to create, edit, redesign and review presentations. Accepting slides, choosing layouts and setting a design each have their own tool, and a message to Slidely is not a substitute for any of them.
 
 A skill may also list extra files under `files`. `read_skill` returns the whole skill, or only one of those files when given its `path`.
