@@ -27,10 +27,10 @@ The skill activates when you ask to:
 1. Install this plugin.
 2. Connect the `slidely` connector when prompted (OAuth, one time).
 
-Once connected, tools such as `initialize_working_presentation`,
-`list_design_systems`, `message_slidely`, `select_layouts`, and
-`review_slides_batch` become available, along with the `list_skills` /
-`read_skill` pair that serves the working instructions.
+Once connected, tools such as `open_deck_panel`,
+`initialize_working_presentation_v1`, `list_design_systems_v1`, `message_slidely_v1`,
+and `answer_cards` become available, along with the `list_skills_v1` /
+`read_skill_v1` pair that serves the working instructions.
 
 Building a deck runs for minutes rather than seconds. Stay in the same
 conversation and answer the questions, design and layout cards, and slide
