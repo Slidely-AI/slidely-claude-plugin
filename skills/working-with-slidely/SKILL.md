@@ -15,6 +15,4 @@ This text is only the overview. The detailed workflow — how to initialize a pr
 
 Those skills show how to use Slidely to create, edit, redesign and review presentations. Accepting slides, choosing layouts and setting a design each have their own tool, and a message to Slidely is not a substitute for any of them.
 
-When `open_deck_panel` is among your tools, the Slidely panel is where the user picks the deck and its design and answers what Slidely asks, so open it as soon as they want a presentation made or edited, in the same reply as reading the skills.
-
 A skill may also list extra files under `files`. `read_skill_v1` returns the whole skill, or only one of those files when given its `path`.
