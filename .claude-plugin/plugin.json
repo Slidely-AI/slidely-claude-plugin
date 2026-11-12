@@ -9,6 +9,7 @@
     "url": "https://slidely.ai"
   },
   "homepage": "https://slidely.ai",
+  "privacyPolicyUrl": "https://slidely.ai/privacy",
   "repository": "https://github.com/Slidely-AI/slidely-claude-plugin",
   "license": "MIT",
   "keywords": [
