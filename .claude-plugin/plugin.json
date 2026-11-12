@@ -1,7 +1,7 @@
 {
   "name": "slidely",
   "displayName": "Slidely",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Create and edit slides in Claude.",
   "author": {
     "name": "Slidely",
@@ -9,6 +9,7 @@
     "url": "https://slidely.ai"
   },
   "homepage": "https://slidely.ai",
+  "privacyPolicyUrl": "https://slidely.ai/privacy",
   "repository": "https://github.com/Slidely-AI/slidely-claude-plugin",
   "license": "MIT",
   "keywords": [
