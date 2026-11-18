@@ -1,5 +1,5 @@
 ---
-name: working-with-slidely
+name: collaborating-with-slidely
 description: Create, import, review, and edit PowerPoint presentations with Slidely. Use this whenever the user wants a deck built from a topic or outline, wants an existing .pptx improved or redesigned, or asks to continue work on a presentation they already have in Slidely.
 ---
 
