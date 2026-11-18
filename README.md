@@ -11,7 +11,7 @@ through an explicit review.
 
 | Component | Name | Purpose |
 | --- | --- | --- |
-| Skill | `working-with-slidely` | What Slidely is, and where the detailed workflow for initializing, designing, building and reviewing a deck lives. |
+| Skill | `collaborating-with-slidely` | What Slidely is, and the detailed workflow for initializing, designing, building and reviewing a deck. |
 | MCP server | `slidely` | Hosted connector at `https://prod.slidely.ai/mcp` providing the presentation tools. |
 
 ## Triggering
@@ -29,8 +29,8 @@ The skill activates when you ask to:
 
 Once connected, tools such as `open_deck_panel`,
 `initialize_working_presentation_v1`, `list_design_systems_v1`, `message_slidely_v1`,
-and `answer_cards` become available, along with the `list_skills_v1` /
-`read_skill_v1` pair that serves the working instructions.
+and `answer_cards` become available. The working instructions ship with the
+plugin, in the skill above.
 
 Building a deck runs for minutes rather than seconds. Stay in the same
 conversation and answer the questions, design and layout cards, and slide
